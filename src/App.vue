@@ -3,8 +3,10 @@ import { zhCN, dateZhCN } from 'naive-ui'
 </script>
 <template>
   <n-config-provider :locale="zhCN" :date-locale="dateZhCN">
-    <n-button>Hello NaiveUI</n-button>
-    <n-input></n-input>
-    <n-date-picker type="date" />
+    <RouterView></RouterView>
+    <n-space>
+      <a href="#/about">about</a>
+      <a href="#">index</a>
+    </n-space>
   </n-config-provider>
 </template>
