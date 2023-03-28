@@ -1,4 +1,4 @@
 <script setup lang="ts"></script>
 <template>
-  <RouterView />
+  <n-button>Hello NaiveUI</n-button>
 </template>
